@@ -9,6 +9,6 @@ class UserController extends Controller
 {
     //user home page
     public function index(){
-        return view('user.home');
+        return view('user.layouts.home');
     }
 }
